@@ -6,9 +6,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
-import com.example.Jocker;
+import com.example.Joker;
 import com.example.android.libjokeandroid.JokeActivity;
 
 
@@ -42,12 +41,5 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    public void tellJoke(View view) {
-        Intent intent = new Intent(this, JokeActivity.class);
-        intent.putExtra(JokeActivity.INTENT_EXTRA, Jocker.getJoke());
-        startActivity(intent);
-    }
-
 
 }

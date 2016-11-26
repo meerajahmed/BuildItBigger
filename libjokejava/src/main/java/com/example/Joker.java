@@ -2,7 +2,7 @@ package com.example;
 
 import java.util.Random;
 
-public class Jocker {
+public class Joker {
 
     private static Random random = new Random();
     private static String[] jokes = {
